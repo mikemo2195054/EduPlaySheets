@@ -1,0 +1,72 @@
+/* General Body Styling */
+body {
+    font-family: 'Comic Sans MS', sans-serif;  /* Fun, child-friendly font */
+    background-color: #f7f7f7; /* Light background for a soft feel */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main Heading Styling */
+h1 {
+    text-align: center;
+    color: #FF6F61; /* Warm coral color */
+    font-size: 3em;
+}
+
+/* Introduction Paragraph Styling */
+p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    line-height: 1.6;
+}
+
+/* Activity Box Styling */
+.activity {
+    background-color: #FFF0B3; /* Light yellow background for kids' playfulness */
+    border: 2px solid #FFCD38; /* Gold border for highlighting */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 15px; /* Rounded edges for a friendly appearance */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Activity Title Styling */
+.activity-title {
+    font-size: 2em;
+    color: #FF6F61; /* Matching the main heading color */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Activity Description Styling */
+.activity-description {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Download Link Styling */
+.activity-download-link {
+    display: block;
+    text-align: center;
+    background-color: #76C7C0; /* Calm teal color for buttons */
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.activity-download-link:hover {
+    background-color: #4BA5A1; /* Slightly darker teal on hover */
+}
+
