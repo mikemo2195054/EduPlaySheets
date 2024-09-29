@@ -54,7 +54,7 @@ p {
 .activity-download-link {
     display: block;
     text-align: center;
-    background-color: #76C7C0; /* Calm teal color for buttons */
+    background-color: #39635f; /* Calm teal color for buttons */
     color: white;
     text-decoration: none;
     font-size: 1.2em;
@@ -67,6 +67,6 @@ p {
 }
 
 .activity-download-link:hover {
-    background-color: #4BA5A1; /* Slightly darker teal on hover */
+    background-color: #386e6c; /* Slightly darker teal on hover */
 }
 
