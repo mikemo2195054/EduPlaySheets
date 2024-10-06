@@ -1,19 +1,23 @@
-/* General Body Styling */
 body {
-    font-family: 'Comic Sans MS', sans-serif;  /* Fun, child-friendly font */
-    background-color: #f7f7f7; /* Light background for a soft feel */
+    font-family: 'Comic Sans MS', sans-serif;  
+    background-color: #f7f7f7; 
     margin: 0;
     padding: 20px;
 }
 
-/* Main Heading Styling */
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 800px;
+}
+
 h1 {
     text-align: center;
-    color: #FF6F61; /* Warm coral color */
+    color: #FF6F61; 
     font-size: 3em;
 }
 
-/* Introduction Paragraph Styling */
 p {
     text-align: center;
     font-size: 1.2em;
@@ -23,26 +27,23 @@ p {
     line-height: 1.6;
 }
 
-/* Activity Box Styling */
 .activity {
-    background-color: #FFF0B3; /* Light yellow background for kids' playfulness */
-    border: 2px solid #FFCD38; /* Gold border for highlighting */
+    background-color: #FFF0B3; 
+    border: 2px solid #FFCD38; 
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
-    border-radius: 15px; /* Rounded edges for a friendly appearance */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-/* Activity Title Styling */
 .activity-title {
     font-size: 2em;
-    color: #FF6F61; /* Matching the main heading color */
+    color: #FF6F61;
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Activity Description Styling */
 .activity-description {
     font-size: 1.1em;
     color: #333;
@@ -50,11 +51,10 @@ p {
     text-align: center;
 }
 
-/* Download Link Styling */
 .activity-download-link {
     display: block;
     text-align: center;
-    background-color: #39635f; /* Calm teal color for buttons */
+    background-color: #39635f; 
     color: white;
     text-decoration: none;
     font-size: 1.2em;
@@ -67,6 +67,6 @@ p {
 }
 
 .activity-download-link:hover {
-    background-color: #386e6c; /* Slightly darker teal on hover */
+    background-color: #386e6c; 
 }
 
